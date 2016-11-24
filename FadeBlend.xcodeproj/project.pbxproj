@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559D8C471DE6BCA900195C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8C461DE6BCA900195C7F /* AppDelegate.swift */; };
+		559D8C491DE6BCA900195C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8C481DE6BCA900195C7F /* ViewController.swift */; };
+		559D8C4C1DE6BCA900195C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D8C4A1DE6BCA900195C7F /* Main.storyboard */; };
+		559D8C4E1DE6BCA900195C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559D8C4D1DE6BCA900195C7F /* Assets.xcassets */; };
+		559D8C511DE6BCA900195C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D8C4F1DE6BCA900195C7F /* LaunchScreen.storyboard */; };
+		559D8C5C1DE6BCAA00195C7F /* FadeBlendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8C5B1DE6BCAA00195C7F /* FadeBlendTests.swift */; };
+		559D8C671DE6BCAA00195C7F /* FadeBlendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8C661DE6BCAA00195C7F /* FadeBlendUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559D8C581DE6BCAA00195C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559D8C3B1DE6BCA900195C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559D8C421DE6BCA900195C7F;
+			remoteInfo = FadeBlend;
+		};
+		559D8C631DE6BCAA00195C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559D8C3B1DE6BCA900195C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559D8C421DE6BCA900195C7F;
+			remoteInfo = FadeBlend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559D8C431DE6BCA900195C7F /* FadeBlend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeBlend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D8C461DE6BCA900195C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559D8C481DE6BCA900195C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		559D8C4B1DE6BCA900195C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559D8C4D1DE6BCA900195C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559D8C501DE6BCA900195C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559D8C521DE6BCA900195C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559D8C571DE6BCAA00195C7F /* FadeBlendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeBlendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D8C5B1DE6BCAA00195C7F /* FadeBlendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeBlendTests.swift; sourceTree = "<group>"; };
+		559D8C5D1DE6BCAA00195C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559D8C621DE6BCAA00195C7F /* FadeBlendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeBlendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D8C661DE6BCAA00195C7F /* FadeBlendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeBlendUITests.swift; sourceTree = "<group>"; };
+		559D8C681DE6BCAA00195C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559D8C401DE6BCA900195C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D8C541DE6BCAA00195C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D8C5F1DE6BCAA00195C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559D8C3A1DE6BCA900195C7F = {
+			isa = PBXGroup;
+			children = (
+				559D8C451DE6BCA900195C7F /* FadeBlend */,
+				559D8C5A1DE6BCAA00195C7F /* FadeBlendTests */,
+				559D8C651DE6BCAA00195C7F /* FadeBlendUITests */,
+				559D8C441DE6BCA900195C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559D8C441DE6BCA900195C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559D8C431DE6BCA900195C7F /* FadeBlend.app */,
+				559D8C571DE6BCAA00195C7F /* FadeBlendTests.xctest */,
+				559D8C621DE6BCAA00195C7F /* FadeBlendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559D8C451DE6BCA900195C7F /* FadeBlend */ = {
+			isa = PBXGroup;
+			children = (
+				559D8C461DE6BCA900195C7F /* AppDelegate.swift */,
+				559D8C481DE6BCA900195C7F /* ViewController.swift */,
+				559D8C4A1DE6BCA900195C7F /* Main.storyboard */,
+				559D8C4D1DE6BCA900195C7F /* Assets.xcassets */,
+				559D8C4F1DE6BCA900195C7F /* LaunchScreen.storyboard */,
+				559D8C521DE6BCA900195C7F /* Info.plist */,
+			);
+			path = FadeBlend;
+			sourceTree = "<group>";
+		};
+		559D8C5A1DE6BCAA00195C7F /* FadeBlendTests */ = {
+			isa = PBXGroup;
+			children = (
+				559D8C5B1DE6BCAA00195C7F /* FadeBlendTests.swift */,
+				559D8C5D1DE6BCAA00195C7F /* Info.plist */,
+			);
+			path = FadeBlendTests;
+			sourceTree = "<group>";
+		};
+		559D8C651DE6BCAA00195C7F /* FadeBlendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559D8C661DE6BCAA00195C7F /* FadeBlendUITests.swift */,
+				559D8C681DE6BCAA00195C7F /* Info.plist */,
+			);
+			path = FadeBlendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559D8C421DE6BCA900195C7F /* FadeBlend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559D8C6B1DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlend" */;
+			buildPhases = (
+				559D8C3F1DE6BCA900195C7F /* Sources */,
+				559D8C401DE6BCA900195C7F /* Frameworks */,
+				559D8C411DE6BCA900195C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadeBlend;
+			productName = FadeBlend;
+			productReference = 559D8C431DE6BCA900195C7F /* FadeBlend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559D8C561DE6BCAA00195C7F /* FadeBlendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559D8C6E1DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlendTests" */;
+			buildPhases = (
+				559D8C531DE6BCAA00195C7F /* Sources */,
+				559D8C541DE6BCAA00195C7F /* Frameworks */,
+				559D8C551DE6BCAA00195C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559D8C591DE6BCAA00195C7F /* PBXTargetDependency */,
+			);
+			name = FadeBlendTests;
+			productName = FadeBlendTests;
+			productReference = 559D8C571DE6BCAA00195C7F /* FadeBlendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559D8C611DE6BCAA00195C7F /* FadeBlendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559D8C711DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlendUITests" */;
+			buildPhases = (
+				559D8C5E1DE6BCAA00195C7F /* Sources */,
+				559D8C5F1DE6BCAA00195C7F /* Frameworks */,
+				559D8C601DE6BCAA00195C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559D8C641DE6BCAA00195C7F /* PBXTargetDependency */,
+			);
+			name = FadeBlendUITests;
+			productName = FadeBlendUITests;
+			productReference = 559D8C621DE6BCAA00195C7F /* FadeBlendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559D8C3B1DE6BCA900195C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Oscar Perez";
+				TargetAttributes = {
+					559D8C421DE6BCA900195C7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 42P78E3KL2;
+						ProvisioningStyle = Automatic;
+					};
+					559D8C561DE6BCAA00195C7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 42P78E3KL2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559D8C421DE6BCA900195C7F;
+					};
+					559D8C611DE6BCAA00195C7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 42P78E3KL2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559D8C421DE6BCA900195C7F;
+					};
+				};
+			};
+			buildConfigurationList = 559D8C3E1DE6BCA900195C7F /* Build configuration list for PBXProject "FadeBlend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559D8C3A1DE6BCA900195C7F;
+			productRefGroup = 559D8C441DE6BCA900195C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559D8C421DE6BCA900195C7F /* FadeBlend */,
+				559D8C561DE6BCAA00195C7F /* FadeBlendTests */,
+				559D8C611DE6BCAA00195C7F /* FadeBlendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559D8C411DE6BCA900195C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D8C511DE6BCA900195C7F /* LaunchScreen.storyboard in Resources */,
+				559D8C4E1DE6BCA900195C7F /* Assets.xcassets in Resources */,
+				559D8C4C1DE6BCA900195C7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D8C551DE6BCAA00195C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D8C601DE6BCAA00195C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559D8C3F1DE6BCA900195C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D8C491DE6BCA900195C7F /* ViewController.swift in Sources */,
+				559D8C471DE6BCA900195C7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D8C531DE6BCAA00195C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D8C5C1DE6BCAA00195C7F /* FadeBlendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D8C5E1DE6BCAA00195C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D8C671DE6BCAA00195C7F /* FadeBlendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559D8C591DE6BCAA00195C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559D8C421DE6BCA900195C7F /* FadeBlend */;
+			targetProxy = 559D8C581DE6BCAA00195C7F /* PBXContainerItemProxy */;
+		};
+		559D8C641DE6BCAA00195C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559D8C421DE6BCA900195C7F /* FadeBlend */;
+			targetProxy = 559D8C631DE6BCAA00195C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559D8C4A1DE6BCA900195C7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559D8C4B1DE6BCA900195C7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559D8C4F1DE6BCA900195C7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559D8C501DE6BCA900195C7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559D8C691DE6BCAA00195C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559D8C6A1DE6BCAA00195C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559D8C6C1DE6BCAA00195C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42P78E3KL2;
+				INFOPLIST_FILE = FadeBlend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarperez.FadeBlend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		559D8C6D1DE6BCAA00195C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42P78E3KL2;
+				INFOPLIST_FILE = FadeBlend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarperez.FadeBlend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		559D8C6F1DE6BCAA00195C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42P78E3KL2;
+				INFOPLIST_FILE = FadeBlendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarperez.FadeBlendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FadeBlend.app/FadeBlend";
+			};
+			name = Debug;
+		};
+		559D8C701DE6BCAA00195C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42P78E3KL2;
+				INFOPLIST_FILE = FadeBlendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarperez.FadeBlendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FadeBlend.app/FadeBlend";
+			};
+			name = Release;
+		};
+		559D8C721DE6BCAA00195C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 42P78E3KL2;
+				INFOPLIST_FILE = FadeBlendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarperez.FadeBlendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FadeBlend;
+			};
+			name = Debug;
+		};
+		559D8C731DE6BCAA00195C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 42P78E3KL2;
+				INFOPLIST_FILE = FadeBlendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarperez.FadeBlendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FadeBlend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559D8C3E1DE6BCA900195C7F /* Build configuration list for PBXProject "FadeBlend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D8C691DE6BCAA00195C7F /* Debug */,
+				559D8C6A1DE6BCAA00195C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559D8C6B1DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D8C6C1DE6BCAA00195C7F /* Debug */,
+				559D8C6D1DE6BCAA00195C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559D8C6E1DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D8C6F1DE6BCAA00195C7F /* Debug */,
+				559D8C701DE6BCAA00195C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559D8C711DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D8C721DE6BCAA00195C7F /* Debug */,
+				559D8C731DE6BCAA00195C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559D8C3B1DE6BCA900195C7F /* Project object */;
+}
