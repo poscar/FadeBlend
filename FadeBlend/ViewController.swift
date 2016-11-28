@@ -39,7 +39,9 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         print("Image picker canceled.")
+        targetImage = nil
         targetImageView = nil
+        picker.dismiss(animated: true, completion: nil)
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         print("Image picked.")
