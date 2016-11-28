@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552890B91DEA2AC500F570E9 /* camera-retro.png in Resources */ = {isa = PBXBuildFile; fileRef = 552890B81DEA2AC500F570E9 /* camera-retro.png */; };
 		559D8C471DE6BCA900195C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8C461DE6BCA900195C7F /* AppDelegate.swift */; };
 		559D8C491DE6BCA900195C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8C481DE6BCA900195C7F /* ViewController.swift */; };
 		559D8C4C1DE6BCA900195C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D8C4A1DE6BCA900195C7F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		552890B81DEA2AC500F570E9 /* camera-retro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-retro.png"; sourceTree = "<group>"; };
 		559D8C431DE6BCA900195C7F /* FadeBlend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeBlend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559D8C461DE6BCA900195C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559D8C481DE6BCA900195C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		559D8C3A1DE6BCA900195C7F = {
 			isa = PBXGroup;
 			children = (
+				552890B81DEA2AC500F570E9 /* camera-retro.png */,
 				559D8C451DE6BCA900195C7F /* FadeBlend */,
 				559D8C5A1DE6BCAA00195C7F /* FadeBlendTests */,
 				559D8C651DE6BCAA00195C7F /* FadeBlendUITests */,
@@ -237,6 +240,7 @@
 			files = (
 				559D8C511DE6BCA900195C7F /* LaunchScreen.storyboard in Resources */,
 				559D8C4E1DE6BCA900195C7F /* Assets.xcassets in Resources */,
+				552890B91DEA2AC500F570E9 /* camera-retro.png in Resources */,
 				559D8C4C1DE6BCA900195C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				559D8C6D1DE6BCAA00195C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		559D8C6E1DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlendTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				559D8C701DE6BCAA00195C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		559D8C711DE6BCAA00195C7F /* Build configuration list for PBXNativeTarget "FadeBlendUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				559D8C731DE6BCAA00195C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
